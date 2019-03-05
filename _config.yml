@@ -1,0 +1,9 @@
+navigation:
+  title: "Boda de Pilu y Rafa"
+participants:
+  groom: "Rafael Pax"
+  bride: "Pilar Rodr&iacute;guez"
+  team: "Pilu y Rafa"
+collections:
+  events:
+    output: false

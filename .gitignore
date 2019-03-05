@@ -1,6 +1,1 @@
-node_modules
-/**/.DS_Store
-package-lock.json
-.css
-.js
-piluyrafa.code-workspace
+_site

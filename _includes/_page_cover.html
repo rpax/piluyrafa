@@ -1,0 +1,19 @@
+<div class="fh5co-hero" data-section="home">
+    <div class="fh5co-overlay"></div>
+    <div class="fh5co-cover text-center" data-stellar-background-ratio="0.5"
+    style='background-image: url({{ "/assets/images/cover_bg_1.jpg"  | relative_url }});'>
+        <div class="display-t">
+            <div class="display-tc">
+                <div class="container">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="animate-box">
+                            {% if page.splash_title != blank %} <h1> {{page.splash_title}}</h1>{% endif %}
+                            {% if page.splash_subtitle != blank %}<h2>{{page.splash_subtitle}}</h2> {% endif %}
+                            {% if page.splash_subsubtitle != blank %}<p><span>{{page.splash_subsubtitle}}</span></p> {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
