@@ -1,0 +1,10 @@
+<div class="row row-bottom-padded-md">
+{% for item in include.items %}
+{% include _simpleCard.html
+    image=item.image
+    title=item.title
+    subtitle=item.subtitle
+    content=item.content
+%}
+{% endfor %}
+</div>

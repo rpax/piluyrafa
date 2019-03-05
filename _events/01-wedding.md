@@ -1,7 +1,6 @@
 ---
 title: Ceremonia
-when: Sábado, 7/09/2019 18.00 - 19.00
-where: Colegiata de Santa María La Mayor
+subtitle: "Sábado, 7/09/2019 18.00 - 19.00: Colegiata de Santa María La Mayor"
 image: "/assets/images/wed-ceremony.jpg"
 ---
 
