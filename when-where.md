@@ -7,6 +7,12 @@ group: navigation
 ---
 <div class="row row-bottom-padded-md">
 {% for event in site.events %}
-{% include _event.html image=event.image title=event.title when=event.when where=event.where content=event.content %}
+{% assign subtitle = event.when | append: ': ' | append: event.where %}
+{% include _simpleCard.html
+    image=event.image
+    title=event.title
+    subtitle=subtitle
+    content=event.content
+%}
 {% endfor %}
 </div>
