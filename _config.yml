@@ -7,6 +7,8 @@ participants:
 collections:
   events:
     output: false
+  hairdressers:
+    output: false
 maps:
   paradorOropesa: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12239.875291231503!2d-5.1748715!3d39.9197139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f0f04e8dbdbdb35!2sParador+de+Oropesa!5e0!3m2!1ses!2ses!4v1550324537465"
   santaMariaLaMayor: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435.59202420859157!2d-4.832244936639164!3d39.95770431656645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401c735731a8c5%3A0x72e1bd4f1d5092b1!2sParroquia+Santa+Mar%C3%ADa+la+Mayor!5e0!3m2!1ses!2ses!4v1550324620671"

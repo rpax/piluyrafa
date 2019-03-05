@@ -6,7 +6,8 @@
             <!-- START #fh5co-menu-wrap -->
             <nav id="fh5co-menu-wrap" role="navigation">
                 <ul class="sf-menu" id="fh5co-primary-menu">
-                    {% for node in site.pages %}
+                    {% assign sortedPages = site.pages | sort: "priority" %}
+                    {% for node in sortedPages  %}
                         {% if node.group == 'navigation'  %}
                             {% if page.url == node.url %}
                                 <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>

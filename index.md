@@ -5,6 +5,7 @@ splash_subsubtitle: 07.09.2019
 layout: default
 title: Inicio
 group: navigation
+priority: 0
 ---
 {% include _groomAndBride.html %}
 
