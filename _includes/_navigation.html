@@ -5,17 +5,10 @@
             <h1 id="fh5co-logo"><a href="index.html">{{site.navigation.title}}</a></h1>
             <!-- START #fh5co-menu-wrap -->
             <nav id="fh5co-menu-wrap" role="navigation">
-                <ul class="sf-menu" id="fh5co-primary-menu">
-                    {% assign sortedPages = site.pages | sort: "priority" %}
-                    {% for node in sortedPages  %}
-                        {% if node.group == 'navigation'  %}
-                            {% if page.url == node.url %}
-                                <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
-                            {% else %}
-                                <li><a href="{{node.url}}">{{node.title}}</a></li>
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
+
+
+                    {% include _navlist.liquid elements=site.navigation.toc submenu=false %}
+                    
                     <!--
                     <li>
                         <a href="groom-bride.html" class="fh5co-sub-ddown">Groom &amp; Bride</a>
@@ -33,7 +26,7 @@
                         </ul>
                     </li>
                     -->
-                </ul>
+           
             </nav>
         </div>
     </div>

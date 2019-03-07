@@ -1,0 +1,19 @@
+<ul {% if include.submenu == true %}  class="fh5co-sub-menu" {% else %} class="sf-menu" id="fh5co-primary-menu" {% endif %}>
+{% for element in include.elements  %}
+    {% if element.url %}
+        {% for node in site.pages %}
+            {% if element.url == node.url %}
+                {% capture activeClass %}{% if page.url == node.url %}active{% endif %}{% endcapture %}
+                 <li class="{{activeClass}}" ><a href="{{node.url}}">{{node.title}}</a>
+                  {% break %}
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <li><span class="fh5co-sub-ddown" >{{element.title}}</span>
+    {% endif %}
+    {% if element.children.size > 0 %}
+        {% include _navlist.liquid submenu=true elements=element.children %}
+    {% endif %}
+    </li>
+{% endfor %}
+</ul>
