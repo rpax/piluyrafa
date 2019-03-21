@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html class="no-js">
-{% include _head.html %}
-
-<body>
-  <div id="fh5co-wrapper">
-    <div id="fh5co-page">
-      {% include _page_cover.html %}
-      {% include _navigation.html %}
-      {{ content }}
-      {% include _footer.html %}
-    </div>
-  </div>
-  {% include _scripts.html %}
-</body>
-
-</html>
+---
+layout: base
+---
+{% include _navigation.html %}
+{{ content }}
