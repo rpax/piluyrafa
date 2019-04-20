@@ -12,4 +12,5 @@ estilo gótico-mudéjar.
 El templo, que fue colegiata hasta 1851, tiene el estatus de Bien de
 Interés Cultural.
 
-{% include _googleMap.html url=site.maps.santaMariaLaMayor %}
+<a class="btn btn-primary btn-block" href="https://goo.gl/maps/dS7YdgGu1wuSXmHh8">Abrir en google maps</a>
+<!--{% include _googleMap.html url=site.maps.santaMariaLaMayor %}-->
