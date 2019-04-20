@@ -5,9 +5,9 @@ navigation:
       children: []
     - url: "/when-where.html"
       children: []
-    - title: "Otras cosas"
-      children:
-        - url: "/pages/hairdressers.html"
+ #   - title: "Otras cosas"
+ #     children:
+ #       - url: "/pages/hairdressers.html"
 participants:
   groom: "Rafael Pax"
   bride: "Pilar Rodr&iacute;guez"
