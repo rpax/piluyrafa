@@ -1,6 +1,6 @@
 ---
 title: Celebración
-subtitle: "Sábado, 7/09/2019 21.00: Parador de Oropesa"
+subtitle: "Sábado, 7/09/2019 20.30: Parador de Oropesa"
 image: "/assets/images/wed-party.jpg"
 ---
 
